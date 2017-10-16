@@ -1,0 +1,8 @@
+14:48:19 **** Incremental Build of configuration Debug for project test_serial_sdk ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+
+14:48:19 Build Finished (took 74ms)
+

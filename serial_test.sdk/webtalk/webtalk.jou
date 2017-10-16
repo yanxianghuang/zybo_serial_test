@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# 
+# Start of session at: Mon Oct 16 11:43:55 2017
+# Process ID: 7403
+# Current directory: /home/yanxiang/Develop/vivado/serial_test/serial_test.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/yanxiang/Develop/vivado/serial_test/serial_test.sdk/webtalk/webtalk.log
+# Journal file: /home/yanxiang/Develop/vivado/serial_test/serial_test.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

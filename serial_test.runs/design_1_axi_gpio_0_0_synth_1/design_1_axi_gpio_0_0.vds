@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Oct 16 11:33:56 2017
+# Process ID: 1958
+# Current directory: /home/yanxiang/Develop/vivado/serial_test/serial_test.runs/design_1_axi_gpio_0_0_synth_1
+# Command line: vivado -log design_1_axi_gpio_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_gpio_0_0.tcl
+# Log file: /home/yanxiang/Develop/vivado/serial_test/serial_test.runs/design_1_axi_gpio_0_0_synth_1/design_1_axi_gpio_0_0.vds
+# Journal file: /home/yanxiang/Develop/vivado/serial_test/serial_test.runs/design_1_axi_gpio_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_axi_gpio_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1212.641 ; gain = 74.996 ; free physical = 717 ; free virtual = 12083
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_0_0' [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'axi_gpio' [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:1257]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (1#1) [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (1#1) [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (1#1) [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (1#1) [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (5#1) [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (6#1) [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:177]
+INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (7#1) [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:1257]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axi_gpio_0_0' (8#1) [/home/yanxiang/Develop/vivado/serial_test/serial_test.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/synth/design_1_axi_gpio_0_0.vhd:85]
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1255.141 ; gain = 117.496 ; free physical = 693 ; free virtual = 12059
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1255.141 ; gain = 117.496 ; free physical = 685 ; free virtual = 12051
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1637.570 ; gain = 1.000 ; free physical = 189 ; free virtual = 11480
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1637.570 ; gain = 499.926 ; free physical = 156 ; free virtual = 11413
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1637.570 ; gain = 499.926 ; free physical = 156 ; free virtual = 11413
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1637.570 ; gain = 499.926 ; free physical = 158 ; free virtual = 11414
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1637.570 ; gain = 499.926 ; free physical = 250 ; free virtual = 11507
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1637.570 ; gain = 499.926 ; free physical = 219 ; free virtual = 11476
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1637.570 ; gain = 499.926 ; free physical = 164 ; free virtual = 11239
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1637.570 ; gain = 499.926 ; free physical = 146 ; free virtual = 11221
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1637.570 ; gain = 499.926 ; free physical = 153 ; free virtual = 11203
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1637.570 ; gain = 499.926 ; free physical = 157 ; free virtual = 11208
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1637.570 ; gain = 499.926 ; free physical = 157 ; free virtual = 11208
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1637.570 ; gain = 499.926 ; free physical = 157 ; free virtual = 11207
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1637.570 ; gain = 499.926 ; free physical = 156 ; free virtual = 11206
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1637.570 ; gain = 499.926 ; free physical = 155 ; free virtual = 11205
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1637.570 ; gain = 499.926 ; free physical = 154 ; free virtual = 11205
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |     6|
+|3     |LUT3 |     3|
+|4     |LUT4 |     3|
+|5     |LUT5 |     9|
+|6     |LUT6 |    21|
+|7     |FDR  |    32|
+|8     |FDRE |    53|
+|9     |FDSE |     8|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1637.570 ; gain = 499.926 ; free physical = 154 ; free virtual = 11204
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1637.570 ; gain = 512.512 ; free physical = 158 ; free virtual = 11208
